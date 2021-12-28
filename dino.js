@@ -16,7 +16,7 @@ function handleKeyUp(event) {
 function jump() {
     isJumping = true
     let upInterval = setInterval(() => {
-        if (position >= 350) {   /* Aumentei de 150 pra 450 pois tem momento em que aparece 2 cactos lado-a-lado e torna-se impossível de pulá-los apenas com 150 */
+        if (position >= 350) {   /* Aumentei de 150 pra 350 pois tem momento em que aparece 2 cactos lado-a-lado e torna-se impossível de pulá-los apenas com 150 */
             clearInterval(upInterval)
 
             let downInterval = setInterval(() => {

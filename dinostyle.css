@@ -4,8 +4,8 @@ body {
 
 .dino {
     width: 60px;
-    height: 60px;
-    background-image: url(img/homer.png) ;
+    height: 95px;
+    background-image: url(img/scorpion-small.png) ;
     position: absolute;
     bottom: 0;
 }
